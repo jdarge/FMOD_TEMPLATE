@@ -8,15 +8,13 @@ set(
         SOURCE_FILES main.c
 )
 
-add_executable(
+add_executable(https://github.com/dark-r00t/Music/blob/master/CMakeLists.txt
         music ${SOURCE_FILES}
 )
 
 include_directories(
         ${FMOD_DIR}
         ${FMOD_DIR}
-        ${FMOD_STUDIO_DIR}
-        ${FMOD_STUDIO_DIR}
 )
 
 target_link_libraries(music
